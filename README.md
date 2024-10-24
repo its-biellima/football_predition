@@ -19,3 +19,30 @@ This Python desktop application predicts football match outcomes based on recent
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/football-match-prediction-tkinter.git
+2. Navigate to the project directory:
+   ```bash
+   cd football-match-prediction-tkinter
+
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the application:
+   ```bash
+   python app.py
+
+The application window will open, allowing you to enter team data and receive predictions.
+
+## Technologies Used
+   - Python
+   - Tkinter for the graphical user interface
+   - SciPy for Poisson distribution calculations
+
+## How It Works
+Enter team statistics (wins, draws, losses, goals scored, and goals conceded) in the input fields.
+The app calculates the expected goals using the Poisson distribution and displays a score prediction.
+Win probabilities for each team and the likelihood of a draw are also shown.
+
+## Future Enhancements
+Advanced Prediction Models: Implement machine learning techniques for improved accuracy.
+Data Integration: Enable fetching historical performance data from online sources. 
